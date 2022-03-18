@@ -6,7 +6,7 @@ index.html과 script.js 파일의 skeleton code로 이환용 교수님의 webgl-
 
 + 첫 번째 단계 : Make CUBE
   + Primitive - Triangle <br/>
-  ![파이프라인](/uploads/0a0e95c3d6ec1dd66defe62654bcd365/파이프라인.PNG) <br/>
+  ![파이프라인](https://git.ajou.ac.kr/Junseok/webgl-tutorial/uploads/0a0e95c3d6ec1dd66defe62654bcd365/%ED%8C%8C%EC%9D%B4%ED%94%84%EB%9D%BC%EC%9D%B8.PNG) <br/>
   CUBE를 제작하기 위해서는 우선 전체 파이프라인 과정 중 Primitive processing 과정을 거쳐야 한다. 점, 선, 삼각형 중 하나만 선택하여 그릴 수 있기 때문에 우리는
   큐브를 제작하기 위해 한 면을 삼각형 두개로 구성할 것이다.<br/><br/>
  
