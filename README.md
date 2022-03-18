@@ -58,7 +58,7 @@ index.html과 script.js 파일의 skeleton code로 이환용 교수님의 webgl-
 
 CUBE 제작을 위한 뼈대 코드로 이환용 교수님의 webgl-1.0 : TO6_final.js 를 참고하였다. <br/><br/>
 *생성된 큐브의 모습<br/>
-![큐브생성](/uploads/72074b7873e62fc0f7830fec912d8e57/큐브생성.PNG)
+![큐브생성](https://git.ajou.ac.kr/Junseok/webgl-tutorial/uploads/72074b7873e62fc0f7830fec912d8e57/%ED%81%90%EB%B8%8C%EC%83%9D%EC%84%B1.PNG)
 
 + 두 번째 단계 : Mapping texture image
 면에 텍스쳐 이미지 입히기 <br/>
