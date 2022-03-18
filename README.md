@@ -138,7 +138,7 @@ function initialiseBuffer() {
   ```
 초기 initialiseBuffer<br/><br/>
 *사용된 이미지 리소스<br/>
-![dot](/uploads/f21f68fe05e8c8fb21ba4a889eeae0ec/dot.png)<br/>
+![dot](https://git.ajou.ac.kr/Junseok/webgl-tutorial/uploads/f21f68fe05e8c8fb21ba4a889eeae0ec/dot.png)<br/>
 
 ```
 var fragmentShaderSource = `
@@ -172,7 +172,7 @@ var vertexShaderSource = `
 ```
 initialise vertexshader<br/><br/>
 *텍스쳐 이미지가 매핑된 큐브의 모습<br/>
-![주사위텍스쳐입힘](/uploads/967b540c719ef52b5c971745b09062d8/주사위텍스쳐입힘.PNG)<br/>
+![주사위텍스쳐입힘](https://git.ajou.ac.kr/Junseok/webgl-tutorial/uploads/967b540c719ef52b5c971745b09062d8/%EC%A3%BC%EC%82%AC%EC%9C%84%ED%85%8D%EC%8A%A4%EC%B3%90%EC%9E%85%ED%9E%98.PNG)<br/>
 
 + 세 번째 단계 : 주사위 굴리기(Rotate the dice)<br/>
 주사위의 형체를 만들었으니, 이제는 주사위를 굴려야 할 차례다.<br/>
@@ -198,13 +198,13 @@ function fn_load_dice(){
 주사위가 돌아가는 속도인 speedRot에 곱연산을 통해 그 속도를 줄여나간다. 속도가 일정 수준 이상으로 줄어들면 큐브가 멈추게 된다.
 rendersence() 함수 내부에 fn_load_dice();를 호출해 계속해서 반복해 수행하다가, 속도가 줄어들면 큐브가 멈추게 구현했다.<br/><br/>
 *주사위 돌아가는 모습<br/>
-![뤀앳x](/uploads/c00f952179a34590a598031d4bb841df/뤀앳x.gif)
+![뤀앳x](https://git.ajou.ac.kr/Junseok/webgl-tutorial/uploads/c00f952179a34590a598031d4bb841df/%EB%A4%80%EC%95%B3x.gif)
   
 + 마지막 단계 : 주사위 굴리기 효과 구현(rolling the dice)<br/>
 주사위를 직접 우리가 굴리는 효과를 구현하기 위해, webGL의 view, projection 개념을 적용시켰다.<br/>
-![모질라lookat](/uploads/fb9b8626cdc1910cd6982c4b594d3851/모질라lookat.PNG)<br/>
+![모질라lookat](https://git.ajou.ac.kr/Junseok/webgl-tutorial/uploads/fb9b8626cdc1910cd6982c4b594d3851/%EB%AA%A8%EC%A7%88%EB%9D%BClookat.PNG)<br/>
 우리가 바라보는 눈, 물체, upvector를 사용한다면 물체의 이동 효과를 느낄 수 있다. 만약 우리의 눈의 위치가 위로 올라간다면, 물체는 아래로 떨어지는 듯한 효과를 얻을 수 있을 것이다.<br/>
-![lookat](/uploads/8202c8c30caf6e981b4fcda6aa552075/lookat.PNG)<br/>
+![lookat](https://git.ajou.ac.kr/Junseok/webgl-tutorial/uploads/fb9b8626cdc1910cd6982c4b594d3851/%EB%AA%A8%EC%A7%88%EB%9D%BClookat.PNG)<br/>
 ```
 mat4.lookAt(vMat, [0,y_cam,2], [0.0 ,0.0, 0.0], [0,1,0]);
     if(y_cam < 3.0){
@@ -214,7 +214,7 @@ mat4.lookAt(vMat, [0,y_cam,2], [0.0 ,0.0, 0.0], [0,1,0]);
 renderscene() 함수 안에서, lookAt의 y_cam변수를 매 단계마다 0.3씩 증가하도록 했다. 즉 우리 눈이 점점 0.3크기만큼 올라간다는 뜻이다. 그렇게 되면 물체는 반대로 0.3씩 아래로 내려가 보이는 효과를 보일 것이다.<br/>
 주사위가 컴퓨터 화면에서 사라지지 않도록 하기 위해 3.0의 마지노선을 두었다.<br/><br/>
 *주사위 굴리는 모습<br/>
-![뤀앳o](/uploads/fefb1bf43c9d97a5fe5bc45deb3373c0/뤀앳o.gif)<br/><br/>
+![뤀앳o](https://git.ajou.ac.kr/Junseok/webgl-tutorial/uploads/fefb1bf43c9d97a5fe5bc45deb3373c0/%EB%A4%80%EC%95%B3o.gif)<br/><br/>
 
 # 참조
 https://www.youtube.com/watch?v=uVDZton_TwU&list=PLKseYrrlvWNqmtCMZyoraXIAG2F0sG2o7&index=4 <br/>
